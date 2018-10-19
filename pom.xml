@@ -12,6 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <tomcat.version>7.0.91</tomcat.version>
   </properties>
 
   <dependencies>
@@ -29,17 +30,17 @@
 	<dependency>
 		<groupId>org.apache.tomcat</groupId>
 		<artifactId>tomcat-catalina</artifactId>
-		<version>7.0.90</version>
+		<version>${tomcat.version}</version>
 	</dependency>
 	<dependency>
 		<groupId>org.apache.tomcat</groupId>
 		<artifactId>tomcat-util</artifactId>
-		<version>7.0.90</version>
+		<version>${tomcat.version}</version>
 	</dependency>
 	<dependency>
 		<groupId>org.apache.tomcat.embed</groupId>
 		<artifactId>tomcat-embed-core</artifactId>
-		<version>7.0.90</version>
+		<version>${tomcat.version}</version>
 	</dependency>
   
     <dependency>
