@@ -13,6 +13,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <tomcat.version>7.0.91</tomcat.version>
+    <jetty.version>9.4.12.v20180830</jetty.version>
   </properties>
 
   <dependencies>
@@ -20,12 +21,12 @@
   	<dependency>
 		<groupId>org.eclipse.jetty</groupId>
 		<artifactId>jetty-server</artifactId>
-		<version>9.0.0.RC2</version>
+		<version>${jetty.version}</version>
 	</dependency>
 	<dependency>
 		<groupId>org.eclipse.jetty</groupId>
 		<artifactId>jetty-servlet</artifactId>
-		<version>9.0.0.RC2</version>
+		<version>${jetty.version}</version>
 	</dependency>
 	<dependency>
 		<groupId>org.apache.tomcat</groupId>
